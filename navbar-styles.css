@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+#nave {
+    background-color: rgb(168, 161, 161);
+}
+
+ul {
+    position: fixed;
+    list-style: none;
+}
+
+li {
+    list-style: initial;
+}
+
+#nav>#logo {
+    float: left;
+}
+
+#img {
+    margin-top: 35px;
+    margin-left: 10px;
+    padding-left: 300px;
+    padding-right: 5px;
+    width: 80px;
+}
+
+#tu-tienda {
+    overflow: hidden;
+    float: boyar;
+    padding-left: 30px;
+    width: 300px;
+}
+
+#tienda {
+    overflow: hidden;
+    padding-top: 50px;
+}
