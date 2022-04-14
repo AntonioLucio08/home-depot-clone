@@ -1,41 +1,143 @@
-* {
-    padding: 0px;
-    margin: 0;
-}
-
-#nave {
-    background-color: rgb(168, 161, 161);
-}
-
-ul {
-    position: fixed;
-    list-style: none;
-}
-
-li {
-    list-style: initial;
-}
-
-#nav>#logo {
-    float: left;
-}
-
-#img {
-    margin-top: 35px;
-    margin-left: 10px;
-    padding-left: 300px;
-    padding-right: 5px;
-    width: 80px;
-}
-
-#tu-tienda {
-    overflow: hidden;
-    float: boyar;
-    padding-left: 30px;
-    width: 300px;
-}
-
-#tienda {
-    overflow: hidden;
-    padding-top: 50px;
-}
+        * {
+            padding: 0px;
+            margin: 0;
+        }
+        
+        #nave {
+            background-color: rgb(168, 161, 161);
+            display: flex;
+        }
+        
+        ul {
+            position: fixed;
+            list-style: none;
+        }
+        
+        li {
+            list-style: initial;
+        }
+        
+        #nav>#logo {
+            float: left;
+        }
+        
+        #img {
+            margin-top: 35px;
+            margin-left: 10px;
+            padding-left: 300px;
+            padding-right: 5px;
+            width: 80px;
+        }
+        
+        #tu-tienda {
+            overflow: hidden;
+            padding-left: 30px;
+            width: 300px;
+        }
+        
+        #tienda {
+            overflow: hidden;
+            padding-top: 50px;
+        }
+        
+        #banner-tittle {
+            color: white;
+            background-color: orange;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        #banner-buttons {
+            display: flex;
+            height: 500px;
+            background-image: url("https://cdn.homedepot.com.mx/home/2022/04-Pinturas/ATT04-home01B-D.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: inherit;
+            justify-content: space-between;
+        }
+        
+        #banner-buttons>button {
+            background-color: rgba(204, 196, 196);
+            color: rgba(228, 169, 60, 0.911);
+            font-size: 2.75rem;
+            padding: 8px 5px 10px 8px;
+            margin-top: 200px;
+            margin-left: 25px;
+            margin-right: 25px;
+            height: 50px;
+            transition: all ease-in 1s;
+            cursor: pointer;
+        }
+        
+        .container-producto {
+            background-color: rgb(248, 61, 61);
+        }
+        
+        .productos {
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(255, 255, 255);
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+        
+        .button-producto {
+            background-color: rgba(204, 196, 196);
+            color: rgba(228, 169, 60, 0.911);
+            font-size: 2.75rem;
+            padding: 8px 5px 10px 8px;
+            margin-top: 200px;
+            margin-left: 25px;
+            margin-right: 25px;
+            height: 50px;
+            transition: all ease-in 1s;
+            cursor: pointer;
+        }
+        
+        .fa-solid {
+            color: rgb(155, 152, 148);
+            padding-top: 20px;
+            font-size: 100px;
+            position: relative;
+            margin-top: 120px;
+            cursor: pointer;
+            padding-bottom: 20px;
+        }
+        
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer;
+        }
+        
+        .espacio {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .espacio-container {
+            background-color: red;
+            margin-bottom: 10px;
+        }
+        
+        #espacio-tittle {
+            font-size: 30px;
+            margin-left: 250px;
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline orange;
+        }
+        
+        #espacio-banner {
+            display: flex;
+            height: 500px;
+            margin-left: 250px;
+            margin-top: 10px;
+            background-image: url("https://cdn.homedepot.com.mx/home/2022/04-Pinturas/Banner04_3x2-D.jpg");
+            background-repeat: no-repeat;
+        }
+        
+        #doble-banner {
+            display: flex;
+            background-color: gray;
+            justify-content: space-around;
+        }
